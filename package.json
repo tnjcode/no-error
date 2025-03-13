@@ -1,0 +1,12 @@
+{
+  "name": "wirasena-website",
+  "version": "1.0.0",
+  "description": "Wirasena Robotics Team Website",
+  "scripts": {
+    "start": "npx serve",
+    "build": "echo 'No build required'"
+  },
+  "dependencies": {
+    "serve": "^14.0.0"
+  }
+} 
