@@ -6,15 +6,12 @@
       "use": "@vercel/static"
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ],
-  "github": {
-    "silent": true
-  },
   "cleanUrls": true,
   "trailingSlash": false
 } 
